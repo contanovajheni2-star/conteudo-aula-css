@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(117, 5, 165, 0.781);
+}
+
+.ex1 {
+    border: 6px solid #feebc3;
+    border-width: medium;
+}
+
+.ex2 {
+    border: 6px solid #df8af9;
+}
+
+.ex3 {
+    border: 6px dotted rgb(213, 145, 247);
+}
+
+.ex4 {
+    border: dotted rgb(187, 101, 230);
+    border-width: thick;
+}
+
+.ex5 {
+    border: solid;
+    border-width: 20px 10px;
+    border-color: blueviolet rgb(248, 71, 101) rgb(58, 58, 126);
+}
+
+ .ex6 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom: double;
+    border-left-style: double;
+    }
+
+    .ex7 {
+        border: 6px solid rgb(121, 33, 121);
+        border-radius: 20px;
+    }

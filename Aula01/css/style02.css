@@ -1,0 +1,8 @@
+body {
+    background-image: url(/Aula01/img/stitch.jpg);
+    background-repeat: no repeat;
+    color: rgb(104, 149, 232);
+    background-size: cover;
+    background-attachment: fixed;
+}
+    

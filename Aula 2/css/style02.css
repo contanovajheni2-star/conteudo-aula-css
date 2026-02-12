@@ -1,0 +1,15 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.ex1 {
+    background-color: rgba(9, 255, 255, 0.767);
+    width: 200px;
+    margin: 40px 0px 0px 100px;
+}
+
+.ex2 {
+    width: 250px;
+    background-color: white;
+    margin: 100px auto;
+}
