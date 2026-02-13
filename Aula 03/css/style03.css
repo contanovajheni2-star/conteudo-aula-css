@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(9, 9, 114);
+    color: aliceblue;
+}
+
+.ex1 {
+    text-decoration-line: underline;
+    text-decoration-line: solid;
+    text-decoration-color: rgb(243, 145, 214);
+}
+
+.ex2 {
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: aqua;
+}
+
+.ex3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(255, 217, 0);
+}
