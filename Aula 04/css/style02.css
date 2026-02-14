@@ -1,0 +1,56 @@
+body  {
+    background-color: rgb(116, 23, 155);
+    color: aliceblue;
+}
+
+.link:link {
+    color: rgb(192, 133, 255);
+    background-color: rgb(146, 7, 97);
+}
+
+
+.link:visited {
+    color: bisque;
+    background-color: rgb(88, 88, 246);
+}
+
+
+.link:hover {
+    color: rgb(255, 53, 177);
+    background-color: rgb(192, 31, 233);
+}
+
+
+.link:active {
+    color: gold;
+    background-color: rgb(7, 186, 226);
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    cursor: url('../img/stitch-icons.png'), auto;
+
+}
+
+
+
+ .link-btn:link, .link-btn:visited {
+    background-color: transparent;
+    border: 3px solid rgb(221, 119,249) ;
+    color: aliceblue;
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+ }
+
+ .link-btn:hover, .link-btn:active {
+    background-color: cornflowerblue;
+    color:rgb(149, 13, 186)  ;
+    border: cornflowerblue;
+    transition: .5s;
+ }

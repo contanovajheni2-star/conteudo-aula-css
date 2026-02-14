@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(185, 111, 186);
+}
+
+.ex1 {
+     list-style-image: url('../img/icons8-simba.svg');
+    list-style-type: disc;
+}
