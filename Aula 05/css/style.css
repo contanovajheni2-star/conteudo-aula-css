@@ -1,0 +1,130 @@
+body {
+    background-color: rgb(48, 6, 85);
+}
+
+.ex1 {
+    display: flex;
+    flex-direction: low;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+
+.ex1 div{
+    background-color: #8915ad;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+/*Exemplo Flex-direction: column*/
+
+.ex2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(182, 121, 205);
+    gap: 10px;
+}
+
+.ex2 div{
+    background-color: #8915ad;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo flex-direction:low-reverse*/
+
+.ex3{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+.ex3 div{
+    background-color: rgb(137, 21, 173);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo de flex-direction: column-reverse*/
+
+.ex4{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+.ex4 div{
+    background-color: rgb(137, 21, 173);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.ex5{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+.ex5 div{
+    background-color: rgb(137, 21, 173);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.ex6{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+.ex6 div{
+    background-color: rgb(137, 21, 173);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Exemplo de flex-wrap: wrap reverse*/
+
+.ex7{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap-reverse;
+    background-color: #b679cd;
+    gap: 10px;
+}
+
+.ex7 div{
+    background-color: rgb(137, 21, 173);
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 30px;
+}
