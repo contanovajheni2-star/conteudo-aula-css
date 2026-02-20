@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(27, 93, 237);
+    color: azure;
+}
+
+/* Exemplos de Justify-content: flex-start*/
+
+.ex1 {
+    display: flex;
+    background-color:#1a0870;;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #8a77e6;
+}
+
+.ex2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: darkblue;
+}
+
+.ex2 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(42, 141, 254);
+}
+
+.ex3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: darkblue;
+}
+
+.ex3 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #0760cd;
+}
+
+.ex4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color:darkblue;
+}
+
+.ex4 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(31, 93, 227);
+}
+
+.ex5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: darkblue;
+}
+
+.ex5 div{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(16, 96, 215);
+}
