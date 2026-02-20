@@ -1,0 +1,118 @@
+body {
+    background-color: darkorchid;
+}
+
+/*Exemplos de Flex - order*/
+
+.ex1 {
+    display: flex;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+
+/*Exemplos de Flex-grow*/
+
+.ex2 {
+    display: flex;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+/*Exemplos de flex-shrink*/
+
+.ex3 {
+    display: flex;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+/*Exemplos de flex-basis*/
+
+.ex4 {
+    display: flex;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    background-color: lightpink;
+}
+
+/*Exemplo de align-self: center*/
+
+.ex5 {
+    display: flex;
+    gap: 30px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.ex5 div {
+    display: flex;
+    width: 100px;
+    gap: 30px;
+    background-color: lightpink;
+}
+
+.ex5 #it3{
+    align-self: center;
+    background-color: beige;
+    height: 100px;
+}
+
+
+
+/*Exemplo de align-self: flex-start e align-self: flex-end*/
+
+.ex6 {
+    display: flex;
+    height: 200px;
+    gap: 30px;
+    background-color: lightblue;
+}
+
+.ex6 div {
+    width: 100px;
+    background-color: lightpink;
+}
+
+.ex6 #item2{
+    align-self: flex-start;
+    background-color: beige;
+    height: 100px;
+}
+
+.ex6 #item3{
+    align-self: center;
+    background-color: beige;
+    height: 100px;
+}
+
+.ex6 #item4{
+    align-self: flex-end;
+    background-color: beige;
+    height: 100px;
+}
+
+
