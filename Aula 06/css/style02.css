@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(30, 0, 139);
+    color:aliceblue;
+}
+
+/*Exemplo de align-content: center*/
+
+.ex1 {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+    background-color: blueviolet;
+}
+
+.ex1 div{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    align-content: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+@media (max-width: 600px) {
+    .ex1 {
+        align-items: center;
+        flex-direction: column;
+    }
+}
