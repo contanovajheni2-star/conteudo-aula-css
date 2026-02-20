@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(27, 93, 237);
+    background-color: rgb(94, 6, 132);
     color: azure;
 }
 
@@ -7,6 +7,8 @@ body{
 
 .ex1 {
     display: flex;
+    justify-content: center;
+    gap: 30px;
     background-color:#1a0870;;
 }
 
@@ -14,7 +16,7 @@ body{
     width: 100px;
     height: 100px;
     text-align: center;
-    background-color: #8a77e6;
+    background-color: #2a8dfe;
 }
 
 .ex2 {
@@ -28,7 +30,7 @@ body{
     width: 100px;
     height: 100px;
     text-align: center;
-    background-color: rgb(42, 141, 254);
+    background-color: #2a8dfe;
 }
 
 .ex3 {
@@ -42,7 +44,7 @@ body{
     width: 100px;
     height: 100px;
     text-align: center;
-    background-color: #0760cd;
+    background-color: #2a8dfe;
 }
 
 .ex4 {
@@ -70,5 +72,5 @@ body{
     width: 100px;
     height: 100px;
     text-align: center;
-    background-color: rgb(16, 96, 215);
+    background-color: #2a8dfe;
 }
