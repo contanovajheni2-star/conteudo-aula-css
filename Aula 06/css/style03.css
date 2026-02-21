@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(234, 154, 252);
+    color: #000000;
+}
+/*Exemplo de grid-template-column: auto auto auto*/
+.ex1 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(103, 15, 121);
+}
+
+.ex1 div {
+    border: 1px solid #2b063e;
+    height: 30px;
+    background-color: rgb(255, 150, 248);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid-template-column com valores misturados*/
+
+.ex2 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 200px 80px auto;
+    background-color: rgb(103, 15, 121);
+}
+
+.ex2 div {
+    border: 1px solid #2b063e;
+    height: 30px;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid-template-column com valores fracionados*/
+.ex3 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex3 div {
+    border: 1px solid #2b063e;
+    height: 30px;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid-template-column com minmax*/
+.ex4 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: minmax(180px, 1fr) 150px 150px;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex4 div {
+    border: 1px solid #2b063e;
+    height: 30px;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid-template-column com valores fixos*/
+.ex5 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px 200px;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex5 div {
+    border: 1px solid #2b063e;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid column-gap*/
+.ex6 {
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+    grid-template-columns:auto auto auto;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex6 div {
+    border: 1px solid #2b063e;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/*Exemplo de grid column-gap*/
+.ex7 {
+    display: grid;
+    padding: 5px;
+    row-gap: 40px;
+    grid-template-columns:auto auto auto;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex7 div {
+    border: 1px solid #2b063e;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/*Exemplo de grid column-gap*/
+.ex8 {
+    display: grid;
+    padding: 5px;
+    gap:  40px;
+    grid-template-columns:auto auto auto;
+      /*grid-template-columns: repeat(3, 1fr);*/
+    background-color: rgb(103, 15, 121);
+}
+
+.ex8 div {
+    border: 1px solid #2b063e;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/*Exemplo de grid column-gap*/
+.ex9 {
+    display: grid;
+    padding: 5px;
+    gap:  10px 50px;
+    grid-template-columns:auto auto auto;
+    background-color: rgb(103, 15, 121);
+}
+
+.ex9 div {
+    border: 1px solid #2b063e;
+    background-color: #ff96f8;
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
