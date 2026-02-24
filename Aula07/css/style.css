@@ -1,0 +1,93 @@
+body{
+    font-family: Verdana;
+    background-color: blueviolet;
+    color: white;
+}
+/*Exemplo de justify-content:space-evenly*/
+.ex1 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    background-color: cornflowerblue;
+}
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
+/*Exemplo de justify-content:space-around*/
+.ex2 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-around;
+    background-color: cornflowerblue;
+}
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
+/*Exemplo de justify-content:space-between*/
+.ex3 {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
+/*Exemplo de justify-content:space-center*/
+.ex4 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content:center;
+    background-color: cornflowerblue;
+}
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
+
+/*Exemplo de justify-content:start*/
+.ex5 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content:start;
+    background-color: cornflowerblue;
+}
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
+/*Exemplo de justify-content:end*/
+.ex6 {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,auto);
+    justify-content:end;
+    background-color: cornflowerblue;
+}
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(36, 11, 105);
+}
